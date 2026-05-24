@@ -17,6 +17,7 @@
       overflow-x: hidden;
       font-family: sans-serif;
       color: #333;
+      margin: 0;
     }
 
     .sakura {
@@ -77,8 +78,11 @@
 
     <div class="text-center px-6 fade-up">
 
-      <div class="w-80 h-80 bg-white rounded-3xl mx-auto shadow-2xl mb-8 flex items-center justify-center text-gray-400">
-        단체 사진
+      <div class="w-80 h-80 rounded-3xl mx-auto shadow-2xl mb-8 overflow-hidden">
+        <img
+          src="group.jpg"
+          class="w-full h-full object-cover"
+        />
       </div>
 
       <h1 class="text-5xl font-bold mb-6">
@@ -154,9 +158,10 @@
     <div class="grid md:grid-cols-3 gap-6">
 
       <div class="bg-white rounded-3xl shadow-lg p-6">
-        <div class="h-64 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-400 mb-4">
-          활동 사진
-        </div>
+        <img
+          src="activity1.jpg"
+          class="h-64 w-full object-cover rounded-2xl mb-4"
+        />
 
         <p>
           작년에는 이런 활동을 했어요!
@@ -164,9 +169,10 @@
       </div>
 
       <div class="bg-white rounded-3xl shadow-lg p-6">
-        <div class="h-64 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-400 mb-4">
-          활동 사진
-        </div>
+        <img
+          src="activity2.jpg"
+          class="h-64 w-full object-cover rounded-2xl mb-4"
+        />
 
         <p>
           올해는 새로운 프로그램도 추가되었어요!
@@ -174,9 +180,10 @@
       </div>
 
       <div class="bg-white rounded-3xl shadow-lg p-6">
-        <div class="h-64 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-400 mb-4">
-          활동 사진
-        </div>
+        <img
+          src="activity3.jpg"
+          class="h-64 w-full object-cover rounded-2xl mb-4"
+        />
 
         <p>
           편하게 즐길 수 있는 문화교류 행사입니다.
@@ -199,37 +206,45 @@
 
     <div class="grid md:grid-cols-4 gap-6">
 
+      <!-- 이재준 -->
       <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
-        <div class="w-32 h-32 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400">
-          사진
-        </div>
+        <img
+          src="leejaejun.jpg"
+          class="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+        />
 
         <p class="text-pink-500">팀장</p>
         <h3 class="text-2xl font-bold">이재준</h3>
       </div>
 
+      <!-- 김은성 -->
       <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
-        <div class="w-32 h-32 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400">
-          사진
-        </div>
+        <img
+          src="kimeunsung.jpg"
+          class="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+        />
 
         <p class="text-pink-500">부팀장</p>
         <h3 class="text-2xl font-bold">김은성</h3>
       </div>
 
+      <!-- 국해원 -->
       <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
-        <div class="w-32 h-32 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400">
-          사진
-        </div>
+        <img
+          src="gukhaewon.jpg"
+          class="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+        />
 
         <p class="text-pink-500">부팀장</p>
         <h3 class="text-2xl font-bold">국해원</h3>
       </div>
 
+      <!-- 이하임 -->
       <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
-        <div class="w-32 h-32 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400">
-          사진
-        </div>
+        <img
+          src="ihaim.jpg"
+          class="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+        />
 
         <p class="text-pink-500">청년교제 팀장</p>
         <h3 class="text-2xl font-bold">이하임</h3>
